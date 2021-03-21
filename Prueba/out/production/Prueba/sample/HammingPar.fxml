@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="535.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HammingPar">
+   <children>
+      <TableView fx:id="table1" layoutX="17.0" layoutY="104.0" prefHeight="266.0" prefWidth="805.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="241.60003662109375" />
+          <TableColumn fx:id="p1" prefWidth="40.79998779296875" text="P1" />
+            <TableColumn fx:id="p2" prefWidth="37.5999755859375" text="P2" />
+            <TableColumn fx:id="d1" prefWidth="32.79998779296875" text="D1" />
+            <TableColumn fx:id="p3" prefWidth="31.20001220703125" text="P3" />
+            <TableColumn fx:id="d2" prefWidth="43.199951171875" text="D2" />
+            <TableColumn fx:id="d3" prefWidth="28.00006103515625" text="D3" />
+            <TableColumn fx:id="d4" prefWidth="28.0" text="D4" />
+            <TableColumn fx:id="p4" prefWidth="32.7999267578125" text="P4" />
+            <TableColumn fx:id="d5" prefWidth="32.0" text="D5" />
+            <TableColumn fx:id="d6" prefWidth="28.7999267578125" text="D6" />
+            <TableColumn fx:id="d7" prefWidth="29.5999755859375" text="D7" />
+            <TableColumn fx:id="d8" prefWidth="32.0" text="D8" />
+            <TableColumn fx:id="d9" prefWidth="32.0001220703125" text="D9" />
+            <TableColumn fx:id="d10" prefWidth="27.9998779296875" text="D10" />
+            <TableColumn fx:id="d11" prefWidth="35.199951171875" text="D11" />
+            <TableColumn fx:id="p5" prefWidth="29.5999755859375" text="P5" />
+            <TableColumn fx:id="d12" prefWidth="38.40004882812502" text="D12" />
+        </columns>
+      </TableView>
+      <Label layoutX="18.0" layoutY="22.0" prefHeight="36.0" prefWidth="331.0" text="Tabla de Hamming">
+         <font>
+            <Font size="28.0" />
+         </font></Label>
+      <Button layoutX="34.0" layoutY="452.0" mnemonicParsing="false" onAction="#errorPar" prefHeight="36.0" prefWidth="190.0" text="Generar Error" />
+      <TextField layoutX="272.0" layoutY="406.0" prefHeight="27.0" prefWidth="199.0" />
+      <TextField layoutX="501.0" layoutY="407.0" prefHeight="27.0" prefWidth="199.0" />
+      <Button fx:id="generateHamming" layoutX="34.0" layoutY="406.0" mnemonicParsing="false" onAction="#createHam" prefHeight="27.0" prefWidth="190.0" text="Generar Hamming" />
+   </children>
+</AnchorPane>

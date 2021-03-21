@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="608.0" prefWidth="1070.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ErrorPar">
+   <children>
+      <TableView layoutX="28.0" layoutY="118.0" prefHeight="266.0" prefWidth="1014.0">
+         <columns>
+            <TableColumn prefWidth="151.2000389099121" />
+            <TableColumn prefWidth="38.400146484375" text="p1" />
+            <TableColumn prefWidth="43.9998779296875" text="P2" />
+            <TableColumn prefWidth="36.7999267578125" text="D1" />
+            <TableColumn prefWidth="30.4000244140625" text="P3" />
+            <TableColumn prefWidth="35.199951171875" text="D2" />
+            <TableColumn prefWidth="36.7999267578125" text="D3" />
+            <TableColumn prefWidth="36.800048828125" text="D4" />
+            <TableColumn prefWidth="40.00001525878906" text="P4" />
+            <TableColumn prefWidth="35.199951171875" text="D5" />
+            <TableColumn prefWidth="30.39996337890625" text="D6" />
+            <TableColumn prefWidth="26.4000244140625" text="D7" />
+            <TableColumn prefWidth="28.0" text="D8" />
+            <TableColumn prefWidth="31.20001220703125" text="D9" />
+            <TableColumn prefWidth="33.5999755859375" text="D10" />
+            <TableColumn prefWidth="32.79998779296875" text="D11" />
+            <TableColumn prefWidth="24.0" text="P5" />
+            <TableColumn prefWidth="36.800048828125" text="D12" />
+            <TableColumn prefWidth="100.0" text="Prueba Paridad" />
+            <TableColumn prefWidth="77.60003662109375" text="Bit Paridad" />
+            <TableColumn prefWidth="97.60009765625" text="Comprobación" />
+         </columns>
+      </TableView>
+      <Label layoutX="28.0" layoutY="51.0" prefHeight="35.0" prefWidth="178.0" text="Tabla 2">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
